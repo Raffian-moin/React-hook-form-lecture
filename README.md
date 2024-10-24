@@ -10,7 +10,7 @@
 2. Controlled vs Uncontrolled Components
    - Value, onChange, and DefaultValue
 
-3. React-Hook-Form
+3. React-Hook-Form and Uncontrolled Input Components
    - How React-Hook-Form Registers Input Fields
    - Form Submission with React-Hook-Form
    - Form Validation Rules
@@ -19,9 +19,11 @@
    - Using watch() for UI Changes
    - Prefill Data in Edit Mode
 
-4. Code Organization
+4. React-Hook-Form and Controlled Components with UI Libraries
+
+5. Code Organization
    - Avoiding Duplicate Code: Creating Input Field Components
    - Handling Too Many Props: Using useFormContext
 
-5. Controlled Components with UI Libraries
-   - Using useWatch
+6. Performance
+   - Using useWatch to avoid re-rendering of whole tree
