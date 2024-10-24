@@ -1,12 +1,14 @@
+import { NextUIProvider } from '@nextui-org/react'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import { NextUIProvider } from '@nextui-org/react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import UncontrolledComponent from './UncontrolledComponent.tsx'
-import ControlledComponent from './ControlledComponent.tsx'
-import Test from './Test.tsx'
+import './App.css'
+import App from './App.tsx'
+import ControlledComponent from './controlled-uncontrolled/ControlledComponent.tsx'
+import './index.css'
+import UncontrolledComponent from './controlled-uncontrolled/UncontrolledComponent.tsx'
+import ValueDefaultValueComponent from './controlled-uncontrolled/ValueDefaualtValueComponent.tsx'
+import ParentComponent from './render-props/ParentComponent.tsx'
 
 const router = createBrowserRouter([
   {
@@ -22,8 +24,12 @@ const router = createBrowserRouter([
     element: <ControlledComponent />,
   },
   {
-    path: "/test",
-    element: <Test />,
+    path: "/default-value-value-onchange",
+    element: <ValueDefaultValueComponent />,
+  },
+  {
+    path: "/render-props",
+    element: <ParentComponent />,
   },
 ]);
 

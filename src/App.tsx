@@ -16,6 +16,18 @@ function App() {
         Controlled Component
       </Link>
       <Link
+        to={`/default-value-value-onchange`}
+        className="inline-block bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition duration-200"
+      >
+        DefaultValue, Value, OnChange
+      </Link>
+      <Link
+        to={`/render-props`}
+        className="inline-block bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition duration-200"
+      >
+        Render Props
+      </Link>
+      <Link
         to={`/test`}
         className="inline-block bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition duration-200"
       >
