@@ -1,6 +1,6 @@
-# Table of Contents
+# What We Covered at the Session
 
-1. Form Submission
+1. Common Form Handling Tasks
    - Validate Form Data
    - Display Error Messages
    - Clear Input Fields
@@ -27,3 +27,24 @@
 
 6. Performance
    - Using useWatch to avoid re-rendering of whole tree
+
+## Installation
+
+- **Requirements**:
+  - **Node**: >= 16.0
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Raffian-moin/React-hook-form-lecture.git
+
+2. **Navigate to the project directory:**
+    ```bash
+    cd React-hook-form-lecture
+
+4. **Install dependencies:**
+    ```bash
+    npm install
+
+5. **Run project:**
+    ```bash
+    npm run dev
