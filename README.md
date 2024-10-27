@@ -31,7 +31,7 @@
 ## Installation
 
 - **Requirements**:
-  - **Node**: >= 16.0
+  - **Node.js**: >= 16.0
 
 1. **Clone the repository:**
    ```bash
